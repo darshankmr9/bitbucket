@@ -1,0 +1,1259 @@
+[root@ip-10-2-2-148 ~]# history
+    1  ls -lart
+    2  more .bash_profile
+    3  clear
+    4  ls
+    5  ls -lart
+    6  more .bash_profile
+    7  sytemctl enable  bitbucket.service
+    8  cd /opt/atlassian/
+    9  ls
+   10  cd application-data/
+   11  ls
+   12  cd bitbucket/
+   13  ls
+   14  cd ..
+   15  ls
+   16  cd ..
+   17  ls
+   18  cd bitbucket/
+   19  ls
+   20  cd 7.8.0/
+   21  ls
+   22  cd bin
+   23  ls
+   24  ./start-bitbucket.sh
+   25  ls -lart
+   26  quit
+   27  exit
+   28  ls
+   29  cd /opt/atlassian/
+   30  ls
+   31  cd bitbucket/
+   32  ls
+   33  cd 7.8.0/
+   34  ls
+   35  cd bin
+   36  ls
+   37  chmod 777 start-bitbucket.sh
+   38  ./start-bitbucket.sh
+   39  quit
+   40  exit
+   41  ls
+   42  cd /opt/atlassian/
+   43  ls
+   44  cd bitbucket/
+   45  ls
+   46  cd 7.8.0/
+   47  ls
+   48  cd bin
+   49  clear
+   50  ls -lart
+   51  pwd
+   52  echo "$PATH"
+   53  export=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/usr/local/git/bin:/usr/local/git/bin:/usr/local/git/bin:/root/bin:/opt/atlassian/bitbucket/7.8.0/bin
+   54  systemctl status bitbucket
+   55  cd /opt/atlassian/bitbucket/7.8.0/bin
+   56  ls -lart
+   57  ./start-bitbucket.sh
+   58  ls
+   59  pwd
+   60  ls -lart
+   61  cd ..
+   62  ls -lart
+   63  cd ..
+   64  ls -lart
+   65  cd 7.8.0/
+   66  ls -lart
+   67  cd ..
+   68  ls
+   69  ls -lart
+   70  cd ..
+   71  ls -lart
+   72  cd /opt/atlassian/application-data/
+   73  ls -lart
+   74  pwd
+   75  chmod 777 bitbucket
+   76  ls -lart
+   77  cd bitbucket/
+   78  ls
+   79  cd /opt/atlassian/
+   80  ls
+   81  cd bitbucket/
+   82  ls
+   83  cd 7.8.0/
+   84  ls
+   85  cd bin/
+   86  ls
+   87  ./start-bitbucket.sh
+   88  clear
+   89  ls
+   90  more start-bitbucket.sh
+   91  ls
+   92  more start-bitbucket.sh
+   93  vi start-bitbucket.sh
+   94  clear
+   95  cd /home/
+   96  ls
+   97  cd /opt/atlassian/
+   98  ls
+   99  cd bitbucket/
+  100  ls
+  101  cd 7.8.0/
+  102  ls
+  103  cd bin/
+  104  ls
+  105  ./start-bitbucket.sh
+  106  id -u atlbitbucket
+  107  su atlbitbucket
+  108  cd /opt/atlassian/application-data/bitbucket/
+  109  ls
+  110  cd ..
+  111  ls
+  112  ls -lart
+  113  clear
+  114  ls -lart
+  115  more /etc/passwd
+  116  cd /opt/
+  117  ls
+  118  ls -
+  119  cd a
+  120  ls
+  121  cd atlassian/
+  122  ls
+  123  df -Th
+  124  ls -l
+  125  cd ../
+  126  ls
+  127  ls -ll
+  128  ls -l
+  129  cd atlassian/
+  130  ls
+  131  mkdir BitBucket_dev
+  132  chown -R ec2-user:ec2-user BitBucket_dev/
+  133  ls -l
+  134  watch -n 0.2 du -shc BitBucket_dev/
+  135  yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  136  clear
+  137  yum repolist
+  138  yum search p7zip
+  139  yum install p7zip
+  140  clear
+  141  ls -l
+  142  watch -n 0.2 du -shc BitBucket_dev/
+  143  ls
+  144  cd BitBucket_dev/
+  145  ls
+  146  pwd
+  147  7za e Bitbucket.7z
+  148  cd /opt/atlassian/
+  149  ls
+  150  cd BitBucket_dev/
+  151  cd ../
+  152  du -shc BitBucket_dev/
+  153  mkdir Backup
+  154  mv BitBucket_dev/Bitbucket.7z Backup/
+  155  ls -l
+  156  du -shc BitBucket_dev/
+  157  cd bitbucket/
+  158  ls
+  159  cd 7.8.0/
+  160  ls
+  161  ls -l
+  162  cd app/
+  163  ls
+  164  ls -l
+  165  cd ../
+  166  ls
+  167  cd ../
+  168  ls -l
+  169  cd ../
+  170  ls -l
+  171  chown -R root:root BitBucket_dev/
+  172  cd bitbucket/
+  173  ls
+  174  history
+  175  cat /etc/passwd
+  176  cd /opt/atlassian/application-data/
+  177  ls
+  178  ls -l
+  179  cd ../
+  180  ls
+  181  ls -l
+  182  cd atl_binary/
+  183  ls
+  184  cd ../
+  185  cd application-data/
+  186  ls
+  187  cd ../bitbucket/
+  188  ls
+  189  cd 7.8.0/
+  190  ls
+  191  cd logs/
+  192  ls
+  193  cd ../
+  194  ls -l
+  195  cd app
+  196  l
+  197  ll
+  198  cd ../bin
+  199  ls
+  200  ls -l
+  201  history | grep sh
+  202  ls
+  203  vim start-bitbucket.sh
+  204  yum install vim -y
+  205  vim start-bitbucket.sh
+  206  q!
+  207  cd ../../
+  208  ls
+  209  cd ../
+  210  ls
+  211  ls -l
+  212  cd
+  213  cat /etc/passwd
+  214  su - atlbitbucket
+  215  clear
+  216  ls -l
+  217  cd -
+  218  ls
+  219  ls -l
+  220  cd application-data/
+  221  ls
+  222  ls -l
+  223  cd ../
+  224  cd bitbucket/
+  225  ls -l
+  226  cd 7.8.0/
+  227  ls
+  228  cd bin/
+  229  s
+  230  ls
+  231  ./start-bitbucket.sh
+  232  cd /home/
+  233  ls
+  234  ls -l
+  235  cat /etc/passwd
+  236  useradd atlbitbucket
+  237  groupadd atlbitbucket
+  238  mkdir atlbitbucket
+  239  ls -l
+  240  chown -R atlbitbucket:atlbitbucket atlbitbucket/
+  241  ls -l
+  242  cd ..
+  243  cd /opt/
+  244  ls
+  245  cd atlassian/
+  246  ls
+  247  ls -l
+  248  chown -R atlbitbucket:atlbitbucket application-data/
+  249  chown -R atlbitbucket:atlbitbucket atl_binary/
+  250  chown -R atlbitbucket:atlbitbucket bitbucket/
+  251  clear
+  252  ls -l
+  253  cd bitbucket/
+  254  ls
+  255  cd 7.8.0/
+  256  ls
+  257  ls -l
+  258  cd bin/
+  259  ls
+  260  clear
+  261  ./start-bitbucket.sh
+  262  netstat -tulpn
+  263  cd ../../
+  264  ls
+  265  cd ../
+  266  ls -
+  267  ls -l
+  268  clear
+  269  ls -
+  270  ls -l
+  271  cat /etc/passwd | grep atl
+  272  cd bitbucket/
+  273  ls
+  274  cd 7.8.0/
+  275  ls
+  276  cd bin/
+  277  ls
+  278  ls -l
+  279  ./stop-bitbucket.sh
+  280  netstat -tulpn
+  281  ./start-bitbucket.sh
+  282  netstat -tulpn
+  283  wget -O- localhost:7990
+  284  cd ../
+  285  ls
+  286  cd ../
+  287  ls -l
+  288  ifconfig
+  289  cat /etc/passwd
+  290  history
+  291  cd /opt/atlassian/bitbucket/
+  292  ls
+  293  cd 7.8.0/
+  294  ls
+  295  cd bin/
+  296  ls
+  297  pwd
+  298  exit
+  299  clear
+  300  cd /opt/atlassian/
+  301  ls
+  302  cd /etc/system
+  303  cd /etc/systemd/
+  304  ls
+  305  cd system
+  306  ls
+  307  vim bitbucket.service
+  308  systemctl enable bitbucket.service
+  309  systemctl status bitbucket.service
+  310  netstat -tulpn
+  311  systemctl stop bitbucket.service
+  312  netstat -tulpn
+  313  cd /opt/atlassian/bitbucket/7.8.0/bin/
+  314  ./stop-bitbucket.sh
+  315  cd -
+  316  systemctl start bitbucket.service
+  317  systemctl status bitbucket
+  318  netstat -tulpn
+  319  systemctl status bitbucket
+  320  ps -ef | bitbucket
+  321  cta /etc/os-release
+  322  cat /etc/os-release
+  323  history
+  324  cd /opt/atlassian/application-data/
+  325  ls
+  326  cd bitbucket/
+  327  ls
+  328  ls -lart
+  329  cd ..
+  330  ls
+  331  ls -lart
+  332  cd bitbucket/
+  333  ls
+  334  cd bin/
+  335  ls -lart
+  336  find / -name "*.log"
+  337  cd /opt/atlassian/application-data/bitbucket/
+  338  ls -lart
+  339  cd log/
+  340  ls
+  341  more atlassian-bitbucket.log
+  342   pwd
+  343  cat /etc/os-release
+  344  systemctl status bitbucket
+  345  top
+  346  ps -ef | java
+  347  clear
+  348  ps -ef | grep Java
+  349  ps -ef | grep java
+  350  systemctl enable bitbucket
+  351  clear
+  352  systemctl
+  353  clear
+  354  cd /usr/lib/systemd/system
+  355  ls
+  356  ls | grep "bitbucket"
+  357  clear
+  358  ls
+  359  pwd
+  360  cd /opt/atlassian/ls
+  361  cd /opt/atlassian/
+  362  ls
+  363  cd bitbucket/
+  364  ls
+  365  cd 7.8.0/
+  366  ls
+  367  cd bin/
+  368  ls
+  369  pwd
+  370  cd /usr/lib/systemd
+  371  cd system
+  372  ls
+  373  vi bitbucket.service
+  374  rm -rf bitbucket.service
+  375  pwd
+  376  clear
+  377  pwd
+  378  systemctl status bitbucket.service
+  379  pwd
+  380  ls | grep bibucket
+  381  ls -lart
+  382  ls | grep stash
+  383  pwd
+  384  cd multi-user.target.wants/
+  385  ls
+  386  find / -name bitbucket.service
+  387  pwd
+  388  more /etc/systemd/system/multi-user.target.wants/bitbucket.service
+  389  cd /etc/systemd/system/multi-user.target.wants/
+  390  ls
+  391  systemctl is-enabled bitbucket
+  392  systemctl is-failed bitbucket
+  393  systemctl cat bitbucket.service
+  394  systemctl list-dependencies bitbucket.service
+  395  ps -l
+  396  clear
+  397  ls
+  398  curl http://localhost:7990
+  399  wget http://localhost:7990
+  400  ls
+  401  more index.html
+  402  clear
+  403  ls
+  404  cd /opt/
+  405  ls
+  406  cd atlassian/
+  407  ls
+  408  cd bitbucket/
+  409  ls
+  410  cd 7.8.0/
+  411  ls
+  412  cd bin/
+  413  ls
+  414  wget http://10.2.2.148:7990
+  415  ls
+  416  more index.html
+  417  ls
+  418  clear
+  419  ls
+  420  rm -rf index.html
+  421  ls
+  422  curl http://10.2.2.148:7990
+  423  wget http://10.2.2.148:7990
+  424  clear
+  425  curl -o http://10.2.2.148:7990
+  426  systemctl status iptables
+  427  service iptables stop
+  428  service iptables status
+  429  find / -name iptables.service
+  430  cd /etc/systemd/system/basic.target.wants/
+  431  ls
+  432  cd -
+  433  service iptables status
+  434  clear
+  435  service iptables status
+  436  ls
+  437  pwd
+  438  cd /opt/atlassian/
+  439  ls
+  440  cd BitBucket_dev
+  441  ls
+  442  clear
+  443  pwd
+  444  iptables --list
+  445  service iptables start
+  446  iptables --list
+  447  iptables --list | grep icm[
+  448  iptables --list | grep icmp
+  449  iptables -A INPUT -p tcp -m tcp --dport 7990 -m state --state NEW -j ACCEPT
+  450  iptables --list
+  451  iptables --save
+  452  service iptables save
+  453  iptables --list
+  454  iptables --list
+  455  service iptables restart
+  456  iptables --list
+  457  ifconfig
+  458  iptables --list
+  459  cd /opt/atlassian/
+  460  ls
+  461  cd BitBucket_dev/
+  462  ls
+  463  clear
+  464  history
+  465  history | grep 7z
+  466  cd /opt/atlassian/
+  467  ls
+  468  cd bitbucket/
+  469  ls
+  470  cd 7.8.0/
+  471  ls
+  472  cd bin/
+  473  ls
+  474  vim set-bitbucket-home.sh
+  475  clear
+  476  history
+  477  cd /
+  478  yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python -y
+  479  cd /
+  480  realm join --user=TcsDomainJoin one.ad
+  481  realm join --user=TcsDomainJoin one.ad
+  482  realm join --user=TcsDomainJoin one.ad
+  483  cd /
+  484  yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python -y
+  485  realm join --user=TcsDomainJoin one.ad
+  486  vi /etc/host
+  487  vi /etc/hosts
+  488  vi /etc/sssd/sssd.conf
+  489  vi /etc/sssd/sssd.conf:
+  490  cd etc
+  491  cd sssd
+  492  ls
+  493  vi conf.d
+  494  ls -al
+  495  cd conf.d
+  496  ls
+  497  ls -al
+  498  realm join --user=TcsDomainJoin one.ad
+  499  sudo su-
+  500  sudo su -
+  501  cd /opt/atlassian/
+  502  ls
+  503  cd BitBucket_dev/
+  504  ls
+  505  clear
+  506  telnet cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com 5432
+  507  yum install telnet
+  508  clear
+  509  telnet cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com 5432
+  510  clear
+  511  yum list | grep postgres
+  512  clear
+  513  yum install -y postgresql96-libs.x86_64 postgresql96.x86_64
+  514  yum list | grep postgres
+  515  yum install -y postgresql92-libs.x86_64 postgresql96.x86_64
+  516  yum install -y postgresql9.2-libs.x86_64 postgresql96.x86_64
+  517  yum install -y postgresql-9.2-libs.x86_64 postgresql96.x86_64
+  518  #postgresql.x86_64
+  519  yum install -y postgresql.x86_64 postgresql-libs.x86_64
+  520  clear
+  521  psql
+  522  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -U svc_AlmStash -p
+  523  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -U svc_AlmStash -P
+  524  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -U svc_AlmStash
+  525  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -u
+  526  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash -W
+  527  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U bitbucket_dev_postgresdb
+  528  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash
+  529  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash -d bitbucket_dev_postgresdb
+  530  ls
+  531  cd ../bitbucket/
+  532  ls
+  533  cd 7.8.0/
+  534  ls
+  535  cd bin/
+  536  ls
+  537  vim set-bitbucket-home.sh
+  538  systemctl stop bitbucket.service
+  539  systemctl status bitbucket.service
+  540  cd /opt/atlassian/BitBucket_dev/
+  541  pwd
+  542  cd ../bitbucket/
+  543  cd 7.8.0/
+  544  cd bin/
+  545  vim set-bitbucket-home.sh
+  546  cd /opt/atlassian/BitBucket_dev
+  547  vim ../bitbucket/7.8.0/bin/set-bitbucket-home.
+  548  vim ../bitbucket/7.8.0/bin/set-bitbucket-home.sh
+  549  clear
+  550  systemctl start bitbucket
+  551  systemctl status bitbucket
+  552  journalctl -xu bitbucket -f
+  553  cd ../
+  554  ls -l
+  555  chown -R atlbitbucket:atlbitbucket BitBucket_dev
+  556  systemctl start bitbucket
+  557  systemctl status bitbucket
+  558  pwd
+  559  ls -lart
+  560  cd BitBucket_dev
+  561  ls -lart
+  562  clear
+  563  pwd
+  564  cd ..
+  565  ls
+  566  cd -
+  567  chmod a+x git-hooks/
+  568  chmod a+x git
+  569  systemctl stop bitbucket
+  570  systemctl start bitbucket
+  571  systemctl status bitbucket
+  572  journalctl -xu bitbucket -f
+  573  wget -q -O- localhost:7990
+  574  grep -Hrn 'SpringMVC' .
+  575  cd ../../
+  576  ls
+  577  cd atlassian/
+  578  ls
+  579  cd bitbucket/
+  580  ls
+  581  cd 7.8.0/bin/
+  582  ls
+  583  vim set-bitbucket-user.sh
+  584  vim setup_user.sh
+  585  vim set-bitbucket-home.sh
+  586  systemctl stop bitbucket
+  587  vim set-bitbucket-home.sh
+  588  systemctl start bitbucket
+  589  systemctl status bitbucket
+  590  wget -q -O- localhost:7990
+  591  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash
+  592  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash -d postgres
+  593  pwd
+  594  ls
+  595  cd ..
+  596  ls
+  597  grep -Hrn 'svc_bitbucket_test' .
+  598  grep -Hrn 'database' .
+  599  ls
+  600  cd app/
+  601  ls
+  602  cd WEB-INF/
+  603  ls
+  604  cd ../
+  605  cd ..
+  606  cd app/static/bower/jstree/_dem
+  607  cd app/static/bower/jstree/
+  608  ls
+  609  cd _demo/
+  610  ls
+  611  vim config.php
+  612  cd
+  613  cd -
+  614  cd _inc
+  615  ls
+  616  vim class._database.php
+  617  cd ../../../
+  618  cd ../../
+  619  ls
+  620  cd ../
+  621  grep -Hrn 'svc_AlmStash' .
+  622  cd ../
+  623  ls
+  624  find / -name bitbucket.properties
+  625  more /opt/atlassian/application-data/bitbucket/shared/bitbucket.properties
+  626  systemctl stop bitbucket
+  627  systemctl status bitbucket
+  628  clear
+  629  vi /opt/atlassian/application-data/bitbucket/shared/bitbucket.properties
+  630  history
+  631  history | grep dev
+  632  vi /opt/atlassian/application-data/bitbucket/shared/bitbucket.properties
+  633  systemctl status bitbucket
+  634  systemctl start bitbucket
+  635  psql
+  636  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash -d postgres
+  637  clear
+  638  ls
+  639  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash -d bitbucket_dev_postgresdb
+  640  yum install -y postgresql.x86_64 postgresql-libs.x86_64
+  641  pg_dump  -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -u svc_AlmStash -d svc_bitbucket_test -t cwd_user
+  642  pg_dump  -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -u svc_AlmStash -d svc_bitbucket_test -t cwd_user  > cwd_user.sql
+  643  pg_dump  -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash -d svc_bitbucket_test -t cwd_user  > cwd_user.sql
+  644  pg_dump  --host cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com --port 5432 --username svc_AlmStash --database svc_bitbucket_test -t cwd_user  > cwd_user.sql
+  645  pg_dump --help
+  646  pg_dump  --host cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com --port 5432 --username svc_AlmStash --database svc_bitbucket_test --table cwd_user  > cwd_user.sql
+  647  pg_dump -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -port 5432 -U svc_AlmStash -d svc_bitbucket_test -t cwd_user  > cwd_user.sql
+  648  pg_dump -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -port 5432 -U svc_AlmStash  svc_bitbucket_test -t cwd_user  > cwd_user.sql
+  649  pg_dump -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash  svc_bitbucket_test -t cwd_user  > cwd_user.sql
+  650  yum search pg_dump
+  651  yum search postgresql
+  652  clear
+  653  wget https://centos.pkgs.org/7/postgresql-10-x86_64/postgresql10-10.16-1PGDG.rhel7.x86_64.rpm.html
+  654  wget https://centos.pkgs.org/7/postgresql-10-x86_64/postgresql10-10.16-1PGDG.rhel7.x86_64.rpm
+  655  yum search postgresql-10-10.16
+  656  yum search postgresql-10-
+  657  yum search postgresql-10
+  658  yum search postgresql
+  659  yum info postgresql.x86_64
+  660  pg_dump -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash  svc_bitbucket_test -t cwd_user  > cwd_user.sql
+  661  clear
+  662  pg_dump -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash  svc_bitbucket_test -t cwd_user  > cwd_user.sql
+  663  yum update pg_dump
+  664  yum update postgresql
+  665  cd
+  666  wget
+  667  wget https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/postgresql10-10.16-1PGDG.rhel7.x86_64.rpm
+  668  rpm -u postgresql10-10.16-1PGDG.rhel7.x86_64.rpm
+  669  rpm -i postgresql10-10.16-1PGDG.rhel7.x86_64.rpm
+  670  yum uninstall -y postgresql.x86_64 postgresql-libs.x86_64
+  671  yum remove -y postgresql.x86_64 postgresql-libs.x86_64
+  672  rpm -i postgresql10-10.16-1PGDG.rhel7.x86_64.rpm
+  673  wget https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/postgresql10-libs-10.7-1PGDG.rhel7.x86_64.rpm
+  674  rpm -i postgresql10-libs-10.7-1PGDG.rhel7.x86_64.rpm
+  675  yum install postgresql10-libs-10.7-1PGDG.rhel7.x86_64.rpm --no-gpg-check
+  676  yum install postgresql10-libs-10.7-1PGDG.rhel7.x86_64.rpm
+  677  rpm -i postgresql10-libs-10.7-1PGDG.rhel7.x86_64.rpm
+  678  ls
+  679  rpm -i postgresql10-10.16-1PGDG.rhel7.x86_64.rpm
+  680  echo -n "{PKCS5S2}xC6vGuIqgDZb5Het/xBFvoJ+lNrqJoGGPbCGRlSewJBKTPwSbFCPCbljA/VN8wE0" | base64 -d
+  681  echo -n "{PKCS5S2}xC6vGuIqgDZb5Het/xBFvoJ+lNrqJoGGPbCGRlSewJBKTPwSbFCPCbljA/VN8wE0" | base64 --decode
+  682  echo {PKCS5S2}xC6vGuIqgDZb5Het/xBFvoJ+lNrqJoGGPbCGRlSewJBKTPwSbFCPCbljA/VN8wE0 | base64 --decode
+  683  #echo {PKCS5S2}xC6vGuIqgDZb5Het/xBFvoJ+lNrqJoGGPbCGRlSewJBKTPwSbFCPCbljA/VN8wE0 | base64 --decode
+  684  base64 -d <<< {PKCS5S2}xC6vGuIqgDZb5Het/xBFvoJ+lNrqJoGGPbCGRlSewJBKTPwSbFCPCbljA/VN8wE0
+  685  echo echo  {PKCS5S2}xC6vGuIqgDZb5Het/xBFvoJ+lNrqJoGGPbCGRlSewJBKTPwSbFCPCbljA/VN8wE0 | base64 --decode
+  686  echo  xC6vGuIqgDZb5Het/xBFvoJ+lNrqJoGGPbCGRlSewJBKTPwSbFCPCbljA/VN8wE0 | base64 --decode
+  687  echo  {PKCS5S2}xC6vGuIqgDZb5Het/xBFvoJ+lNrqJoGGPbCGRlSewJBKTPwSbFCPCbljA/VN8wE0 | base64 --decode -i
+  688  echo  xC6vGuIqgDZb5Het/xBFvoJ+lNrqJoGGPbCGRlSewJBKTPwSbFCPCbljA/VN8wE0 | base64 --decode -i
+  689  clear
+  690  ls
+  691  base64 --version
+  692  clear
+  693  ls
+  694  base64 --version
+  695  history | grep dump
+  696  clear
+  697  ls
+  698  history
+  699  ls
+  700  ls
+  701  wget https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/postgresql10-10.7-1PGDG.rhel7.x86_64.rpm
+  702  rpm -i postgresql10-10.7-1PGDG.rhel7.x86_64.rpm
+  703  wget https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/postgresql10-devel-10.10-1PGDG.rhel7.x86_64.rpm
+  704  rpm -i postgresql10-devel-10.10-1PGDG.rhel7.x86_64.rpm
+  705  yum list installed | grep postgresql
+  706  rpm -e postgresql10-libs-10.7-1PGDG.rhel7.x86_64.rpm
+  707  yum list installed | grep postgresql
+  708  yum remove postgresql10-libs.x86_64
+  709  yum install https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm -y
+  710  yum search postgresql10
+  711   yum install postgresql10  postgresql10-libs -y
+  712  yum info postgres
+  713  yum list installed | grep postgres
+  714  pg_dump --version
+  715  pg_dump -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash  svc_bitbucket_test -t cwd_user  > cwd_user.sql
+  716  ls
+  717  cat cwd_user.sql
+  718  history
+  719  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash -d svc_bitbucket_test
+  720  pg_dump -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash  bitbucket_dev_postgresdb -t cwd_user  > cwd_user_bitbucket_dev_postgresdb.sql
+  721  du -shc cwd_user_bitbucket_dev_postgresdb.sql
+  722  du -shc cwd_user.sql
+  723  psql -h cfg-bitbucket-non-prod-oregon-postgres-db.cj24d84d9kit.us-west-2.rds.amazonaws.com -p 5432 -U svc_AlmStash -d svc_bitbucket_test
+  724  cd /opt/atlassian/bitbucket/
+  725  ls
+  726  mv cwd_user.sql ~/
+  727  cat cwd_user.sql
+  728  rm -rf cwd_user.sql
+  729  ls
+  730  cd 7.8.0/bin/
+  731  ls
+  732  vim _start-webapp.sh
+  733  systemctl stop bitbucket
+  734  systemctl start bitbucket
+  735  systemctl status bitbucket
+  736  systemctl stop bitbucket
+  737  vim _start-webapp.sh
+  738  systemctl start bitbucket
+  739  systemctl status bitbucket
+  740  vim _start-webapp.sh
+  741  systemctl stop bitbucket
+  742  systemctl start bitbucket
+  743  vim _start-webapp.sh
+  744  systemctl stop bitbucket
+  745  systemctl start bitbucket
+  746  systemctl status bitbucket
+  747  clear
+  748  df -Th
+  749  yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python -y
+  750  realm join --user=TcsDomainJoin.one.ad
+  751  realm join --user=TcsDomainJoin one.ad
+  752  realm permit -g "CFG TCS AWS Migration Team"
+  753  ls
+  754  ls -al
+  755  cd /
+  756  ls
+  757  cd etc
+  758  ls
+  759  cd sssd
+  760  ls
+  761  cd sssd.conf
+  762  vi sssd.conf
+  763  service sssd restart
+  764  sss_cache --everything
+  765  id TCSDomainJoin
+  766  id sudipta.sadhukhan
+  767  realm list
+  768  id sudipta.sadhukhan
+  769  histroy
+  770  history
+729  ls -latrh | grep 'Jun  4'
+  730  tail -f atlassian-bitbucket.log
+  731  netstat -tulpn
+  732  ss -ath
+  733  ss -atn
+  734  ss a
+  735  ss -ath
+  736  ss -p
+  737  netstat -vatn
+  738  ping CFG001AWSDOM002.ceteracorp.com
+  739  ping 10.2.2.154
+  740  nc -z -v -w 2 10.2.2.154 22
+  741  yum install nc
+  742  nc -z -v -w 2 10.2.2.154 22
+  743  tree
+  744  yum install tree
+  745  tree -L
+  746  tree -help
+  747  tree -L 2 -u -g -p -d
+  748  tree -L 2
+  749  cd /
+  750  tree -L 2 -u -g -p -d
+  751  cd /opt/atlassian/
+  752  ls
+  753  cd atl_binary/
+  754  ls
+  755  cd ../Backup/
+  756  ls
+  757  cd ../application-data-dev/
+  758  ls
+  759  ls -l
+  760  cd Bitbucket/
+  761  ls
+  762  cd log
+  763  ls
+  764  ls -l
+  765  tail -f atlassian-bitbucket.log
+  766  tail -f atlassian-bitbucket-access.log
+  767  ps aux | sort -nk +4
+  768  ps aux | sort -nk +4 | tail
+  769  clear
+  770  lsof -i
+  771  yum install lsof
+  772  lsof -i
+  773  clear
+  774  getconf LONG_BIT
+  775  arch
+  776  #history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
+  777  history | awk '{a[$2]++}END{for (i in a){print a[i] " " i}}'
+  778  clear
+  779  ps -ef | grep java
+  780  clear
+  781  systemctl status bitbucket
+  782  grep -Hrn 'database' .
+  783  clear
+  784  history
+
+[root@ip-10-2-2-148 ~]#
+
+
+
+132 PROD
+
+[root@PALMAWL002 ~]# history
+    1  cd /opt/aws/amazon-cloudwatch-agent/logs/
+    2  ls -lte
+    3  ls -ltr
+    4  vi amazon-cloudwatch-agent.log
+    5  vi amazon-cloudwatch-agent.log
+    6  /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent --help
+    7  cat /opt/aws/amazon-cloudwatch-agent/bin/config.json
+    8  ps aux | grep cloudwatch
+    9  kill -9 9553
+   10  kill -9 9553
+   11  kill -9 9553
+   12  ps aux | grep agent
+   13  history | grep watch
+   14  systemctl start amazon-cloudwatch-agent
+   15  systemctl status amazon-cloudwatch-agent
+   16  systemctl status amazon-cloudwatch-agent
+   17  systemctl status amazon-cloudwatch-agent
+   18  systemctl status amazon-cloudwatch-agent
+   19  systemctl status amazon-cloudwatch-agent
+   20  systemctl restart amazon-cloudwatch-agent
+   21  systemctl status amazon-cloudwatch-agent
+   22  systemctl status amazon-cloudwatch-agent
+   23  systemctl status amazon-cloudwatch-agent
+   24  systemctl status amazon-cloudwatch-agent
+   25  systemctl status amazon-cloudwatch-agent
+   26  systemctl status amazon-cloudwatch-agent
+   27  systemctl status amazon-cloudwatch-agent
+   28  systemctl stop amazon-cloudwatch-agent
+   29  systemctl status amazon-cloudwatch-agent
+   30  systemctl status amazon-cloudwatch-agent
+   31  systemctl status amazon-cloudwatch-agent
+   32  systemctl status amazon-cloudwatch-agent
+   33  systemctl status amazon-cloudwatch-agent
+   34  systemctl status amazon-cloudwatch-agent
+   35  systemctl stop amazon-cloudwatch-agent
+   36  systemctl start amazon-cloudwatch-agent
+   37  systemctl status  amazon-cloudwatch-agent
+   38  systemctl status  amazon-cloudwatch-agent
+   39  \
+   40  /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a status
+   41  sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -s -m ec2 -c /opt/aws/amazon-cloudwatch-agent/bin/config.json
+   42  sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -s -m ec2 -c /opt/aws/amazon-cloudwatch-agent/bin/config.json
+   43  vi /opt/aws/amazon-cloudwatch-agent/bin/config.json
+   44  cd /opt/aws/amazon-cloudwatch-agent/bin/
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd etc/
+   49  ls
+   50  vi common-config.toml
+   51  cd amazon-cloudwatch-agent.d/
+   52  ls
+   53  ls
+   54  cd ..
+   55  cd ..
+   56  cls
+   57  ls
+   58  cd bin/
+   59  systemctl stop amazon-cloudwatch-agent
+   60  ls
+   61  rm config.json
+   62  ls
+   63  /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
+   64  ls
+   65  systemctl restart amazon-cloudwatch-agent
+   66  systemctl status  amazon-cloudwatch-agent
+   67  systemctl status  amazon-cloudwatch-agent
+   68  systemctl status  amazon-cloudwatch-agent
+   69  systemctl status  amazon-cloudwatch-agent
+   70  systemctl status  amazon-cloudwatch-agent
+   71  cd ../logs/amazon-cloudwatch-agent.log
+   72  ls -ltr
+   73  cd ../logs/
+   74  ls -ltr
+   75  vi amazon-cloudwatch-agent.log
+   76  cd ..
+   77  cd etc/
+   78  ls -ltr
+   79  pwd
+   80  cp -rp /opt/aws/amazon-cloudwatch-agent/bin/config.json .
+   81  mv config.json amazon-cloudwatch-agent.json
+   82  ls -ltr
+   83  ls
+   84  systemctl restart  amazon-cloudwatch-agent
+   85  systemctl status  amazon-cloudwatch-agent
+   86  systemctl status  amazon-cloudwatch-agent
+   87  ps aux | grep watch
+   88  systemctl status  amazon-cloudwatch-agent
+   89  cd ../logs/
+   90  ls
+   91  tail -f amazon-cloudwatch-agent.log
+   92  tail -f amazon-cloudwatch-agent.log
+   93  df -h
+   94  df -h
+   95  fdisk -l
+   96  cat /etc/fstab
+   97  df -h
+   98  fdisk -l
+   99  df -h
+  100  blkid
+  101  fdik -l
+  102  fdisk -l
+  103  mkfs.xfs /dev/nvme2n1
+  104  mkfs.xfs /dev/nvme1n1
+  105  mkswap /dev/nvme3n1
+  106  blkid
+  107  vi /etc/fstab
+  108  cat /etc/fstab
+  109  mkdir /opt/atlassian
+  110  mount -a
+  111  df -h
+  112  free -g
+  113  swapoff -a
+  114  swapon -a
+  115  free -g
+  116  reboot
+  117  df -h
+  118  free -g
+  119  cd /var/log/
+  120  ls
+  121  iptables --list
+  122  service iptables status
+  123  exit
+  124  iptables --list
+  125  yum install net-snmp -y
+  126  iptables -A INPUT -p udp -m udp --dport 161 -j ACCEPT
+  127  iptables -A INPUT -p tcp -m tcp --dport 7990 -j ACCEPT
+  128  service iptables save
+  129  service iptables restart
+  130  iptables --list
+  131  cp /etc/snmp/snmpd.conf /etc/snmp/snmpd.bak
+  132  echo "#EM7 config" > /etc/snmp/snmpd.conf
+  133  echo "rwcommunity  ScienceLogic 10.118.51.90" >> /etc/snmp/snmpd.conf
+  134  echo "rwcommunity  ScienceLogic 10.118.51.91" >> /etc/snmp/snmpd.conf
+  135  echo "rwcommunity  ScienceLogic 10.118.51.62" >> /etc/snmp/snmpd.conf
+  136  echo "rwcommunity  ScienceLogic 10.118.51.63" >> /etc/snmp/snmpd.conf
+  137  echo "rwcommunity  ScienceLogic 10.118.51.64" >> /etc/snmp/snmpd.conf
+  138  echo "rwcommunity  ScienceLogic 10.118.51.65" >> /etc/snmp/snmpd.conf
+  139  echo "rwcommunity  ScienceLogic 10.118.51.100" >> /etc/snmp/snmpd.conf
+  140  echo "rwcommunity  ScienceLogic 10.118.51.101" >> /etc/snmp/snmpd.conf
+  141  echo "rwcommunity  ScienceLogic 10.118.51.102" >> /etc/snmp/snmpd.conf
+  142  echo "rwcommunity  ScienceLogic 10.118.51.103" >> /etc/snmp/snmpd.conf
+  143  echo "rwcommunity  ScienceLogic 10.118.54.120" >> /etc/snmp/snmpd.conf
+  144  echo "rwcommunity  ScienceLogic 10.118.54.121" >> /etc/snmp/snmpd.conf
+  145  echo "syslocation  "LV, Nevada""  >> /etc/snmp/snmpd.conf
+  146  echo "syscontact  "Server Support""   >> /etc/snmp/snmpd.conf
+  147  echo "trap2sink 10.118.51.90 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  148  echo "trap2sink 10.118.51.91 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  149  echo "trap2sink 10.118.51.62 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  150  echo "trap2sink 10.118.51.63 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  151  echo "trap2sink 10.118.51.64 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  152  echo "trap2sink 10.118.51.65 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  153  echo "trap2sink 10.118.51.100 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  154  echo "trap2sink 10.118.51.101 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  155  echo "trap2sink 10.118.51.102 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  156  echo "trap2sink 10.118.51.103 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  157  echo "trap2sink 10.118.54.120 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  158  echo "trap2sink 10.118.54.121 ScienceLogic"   >> /etc/snmp/snmpd.conf
+  159  service snmpd restart
+  160  chkconfig snmpd on
+  161  fdisk -l
+  162  df -h
+  163  free -g
+  164  yum clean all
+  165  df -h
+  166  cat /etc/fstab
+  167  df -h
+  168  free -g
+  169  ifconfig
+  170  iptables --lit
+  171  iptables --list
+  172  status --status-all
+  173  service --status-all
+  174  systemctl --type=service
+  175  systemctl --type=service | grep bitbucket
+  176  systemctl --type=service | grep sys
+  177  df -th
+  178  df -Th
+  179  clear
+  180  df -Th
+  181  java --version
+  182  clear
+  183  yum install java-1.8.0-openjdk-devel
+  184  clear
+  185  yum install git
+  186  clear
+  187  git --version
+  188  yum remove git
+  189  clear
+  190  cd /usr/src/
+  191  ls
+  192  #git-2.30.1.tar.gz
+  193  https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.30.1.tar.gz
+  194  wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.30.1.tar.gz
+  195  tar xzf git-2.30.1.tar.gz
+  196  cd git-2.30.1
+  197  ls
+  198  clear
+  199  make prefix=/usr/local/git all
+  200  make prefix=/usr/local/git install
+  201  yum install curl-config
+  202  yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+  203  yum install gcc perl-ExtUtils_MakeMaker
+  204  clear
+  205  make prefix=/usr/local/git all
+  206  make prefix=/usr/local/git install
+  207  echo 'export PATH=/usr/local/git/bin:$PATH'>>/etc/bashrc
+  208  source /etc/bashrc
+  209  git --version
+  210  cd /opt/atlassian/
+  211  ls
+  212  mkdir Installers
+  213  cd Installers/
+  214  wget https://www.atlassian.com/software/stash/downloads/binary/atlassian-bitbucket-7.8.0-x64.bin
+  215  clear
+  216  pwd
+  217  ls
+  218  chmod 777 atlassian-bitbucket-7.8.0-x64.bin
+  219  ls
+  220  ls -lart
+  221  pwd
+  222  java --version
+  223  java -version
+  224  clear
+  225  w
+  226  history
+  227  df -Th
+  228  cd /opt/atlassian/
+  229  s
+  230  ls
+  231  ls -l
+  232  cd Installers/
+  233  ls
+  234  chmod -R 775 atlassian-bitbucket-7.8.0-x64.bin
+  235  clear
+  236  ls -l
+  237  cd /etc/yum.repos.d/
+  238  ls
+  239  touch pgdg-redhat-all.repo
+  240  vim pgdg-redhat-all.repo
+  241  yum install vim -y; yum install mlocate -y
+  242  clear
+  243  updatedb
+  244  vim pgdg-redhat-all.repo
+  245  yum repolist all
+  246  claer
+  247  clear
+  248  #yum install postgresql10-libs-10.17-1PGDG.rhel7.x86_64
+  249  yum install postgresql10-libs-10.17-1PGDG.rhel7.x86_64  postgresql10-10.17-1PGDG.rhel7.x86_64
+  250  clear
+  251  ls
+  252  mv pgdg-redhat-all.repo /tmp/
+  253  yum repolist all
+  254  clear
+  255  yum install https://download.postgresql.org/pub/repos/yum/11/redhat/rhel-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
+  256  ls
+  257  clear
+  258  yum repolist all
+  259  yum install postgresql10-libs-10.17-1PGDG.rhel7.x86_64  postgresql10-10.17-1PGDG.rhel7.x86_64
+  260  cd /tmp/
+  261  ls
+  262  rm -rf pgdg-redhat-all.repo
+  263  cd
+  264  clear
+  265  psql --version
+  266  clear
+  267  curl --version
+  268  git --version
+  269  clear
+  270  cd /opt/atlassian/
+  271  ls
+  272  cd Installers/
+  273  ls
+  274  ls -l
+  275  java --version
+  276  java -v
+  277  java -V
+  278  java -h
+  279  claer
+  280  javac --version
+  281  clear
+  282  javac -v
+  283  javac -V
+  284  rpm -qa  | grep java
+  285  whereis java
+  286  which java
+  287  echo $JAVA_HOME
+  288  clear
+  289  java --version
+  290  java -version
+  291  clear
+  292  ll
+  293  ./atlassian-bitbucket-7.8.0-x64.bin
+  294  ls
+  295  cd ../
+  296  ls
+  297  ls -l
+  298  cd /etc/systemd/system
+  299  ls
+  300  yum install bash-completion
+  301  clear
+  302  source /etc/profile.d/bash_completion.sh
+  303  netstat -tulpn
+  304  cat /etc/passwd
+  305  cd /opt/atlassian/
+  306  ls
+  307  ls -l
+  308  chown -R atlbitbucket:atlbitbucket application-data/ bitbucket/
+  309  ls -l
+  310  claer
+  311  clear
+  312  ls -l
+  313  cd ../
+  314  ls
+  315  ls -l
+  316  chown -R atlbitbucket:atlbitbucket atlassian/
+  317  cat /var/spool/mail/root
+  318  claer
+  319  clear
+  320  ls -l
+  321  cd atlassian/
+  322  ls
+  323  ls -l
+  324  cd bitbucket/
+  325  ls
+  326  cd 7.8.0/
+  327  ls
+  328  cd bin/
+  329  ls
+  330  ls -l
+  331  vim start-bitbucket.sh
+  332  vim set-bitbucket-home.
+  333  vim set-bitbucket-home.sh
+  334  clear
+  335  ls
+  336  cd /etc/systemd/system/
+  337  ls
+  338  vim bitbucket.service
+  339  ls -l
+  340  chmod -R 755 bitbucket.service
+  341  ls -l
+  342  cat bitbucket.service
+  343  ls /opt/atlassian/bitbucket/7.8.0/
+  344  ls /opt/atlassian/bitbucket/7.8.0/bin/
+  345  ls
+  346  claer
+  347  clear
+  348  ls
+  349  cd
+  350  cd /opt/atlassian/
+  351  ls
+  352  systemctl status bitbucket.service
+  353  systemctl start bitbucket.service
+  354  systemctl status bitbucket.service
+  355  netstat -tulpn
+  356  realm --list
+  357  /bin/bash
+  358  df -h
+  359  man iptables
+  360  iptables --list
+  361  hostname
+  362  python MicrosoftDefenderATPOnboardingLinuxServer.py
+  363  mdatp health --field org_id
+  364  mdatp health --field org_id
+  365  mdatp health --field healthy
+  366  mdatp health --field real_time_protection_enabled
+  367  curl -o /tmp/eicar.com.txt https://www.eicar.org/download/eicar.com.txt
+  368  mdatp threat list
+  369  clear
+  370  cd
+  371  clear
+  372  df -h
+  373  free -g
+  374  uname -r
+  375  iptables --list
+  376  clear
+  377  service smpd status
+  378  clear
+  379  service snmp status
+  380  clear
+  381  iptables --list
+  382  clear
+  383  uname -r
+  384  yum clean all
+  385  df -h
+  386  cat /etc/snmp/snmpd.conf
+  387  chkconfig snmpd on
+  388  cd /opt
+  389  ls
+  390  cd atlassian/
+  391  ls
+  392  cd ..
+  393  cd ..
+  394  cd ..
+  395  exit
+  396  service snmpd status
+  397  uptime
+  398  df -h
+  399   telnet wiki.ceteracorp.com 443
+  400  telnet wiki.ceteracorp.com 443
+  401  yum install telnet
+  402  yum install telnet
+  403  telnet wiki.ceteracorp.com 443
+  404  telnet bamboo.ceteracorp.com 80
+  405  telnet jira.ceteracorp.com 443
+  406  yum remove telnet
+  407  df -h
+  408  hostname
+  409  yum clean all
+  410  df -h
+  411  yum clean all
+  412  df -h
+  413  ls
+  414  lsblk
+  415  df -h
+  416  cd opt/atlassian
+  417  sudo su
+  418  quit
+  419  exit
+  420  df -Th
+  421  systemctl status bitbucket
+  422  clear
+  423  history
+
