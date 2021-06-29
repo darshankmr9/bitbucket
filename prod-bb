@@ -1,0 +1,505 @@
+[root@PALMAWL002 ~]# history
+    1  df -Th
+    2  ls
+    3  ls -l
+    4  cd application-data/
+    5  ls
+    6  clear
+    7  cd bitbucket/
+    8  ls
+    9  cd bin/
+   10  ls
+   11  cd ../
+   12  ifconfig
+   13  history
+   14  git --version
+   15  java -Version
+   16  java -version
+   17  clear
+   18  ip a s
+   19  nc -z -v -w 2 cfg-bitbucket-prod-oregon-postgres-db.cq6mwa5zluu7.us-west-2.rds.amazonaws.com 5432
+   20  yum install nc -y
+   21  nc -z -v -w 2 cfg-bitbucket-prod-oregon-postgres-db.cq6mwa5zluu7.us-west-2.rds.amazonaws.com 5432
+   22  cd /opt/atlassian/
+   23  ls -l
+   24  df -Th /
+   25  df -Th /opt/
+   26  df -T
+   27  df -Th
+   28  ls
+   29  watch -n 0.2 du shc .
+   30  watch -n 0.2 du shc /opt/atlassian/
+   31  df -Th /opt/
+   32  df -Th
+   33  systemctl status bitbucket.service
+   34  systemctl status bitbucket.service -l
+   35  systemctl status bitbucket.service
+   36  cd /opt/atlassian/
+   37  ls -l
+   38  df -Th
+   39  mkdir backup
+   40  ls -l
+   41  chown -R ec2-user:ec2-user backup/
+   42  ls -l
+   43  clear
+   44  cd backup/
+   45  ls
+   46  cp -rf Stash.zip ../
+   47  cd ../
+   48  ls
+   49  rm -rf Stash.zip
+   50  ls
+   51  mv backup/ application-prod-data
+   52  cd application-
+   53  cd application-prod-data/
+   54  ls
+   55  yum install unzip -y
+   56  clear
+   57  unzip Stash.zip
+   58  ls -l
+   59  cd ../
+   60  ls -l
+   61  chown -R atlbitbucket:atlbitbucket application-prod-data/
+   62  cd application-prod-data/
+   63  ls -l
+   64  cd Stash/
+   65  ls
+   66  ls -l
+   67  cd ../
+   68  ls
+   69  cd ../
+   70  ls
+   71  ls -l
+   72  chmod -R 755 atlassian/
+   73  clear
+   74  cd atlassian/
+   75  ls
+   76  cd application-prod-data/
+   77  ls
+   78  cd Stash/
+   79  ls
+   80  cd shared/
+   81  ls
+   82  vim bitbucket.properties
+   83  cd /opt/atlassian/bitbucket/
+   84  ls
+   85  cd 7.8.0/
+   86  ls
+   87  cd bin/
+   88  ls
+   89  vim set-bitbucket-home.sh
+   90  pwd
+   91  cd /opt/atlassian/
+   92  ls
+   93  cd application-prod-data/
+   94  cd Stash/
+   95  ls
+   96  pwd
+   97  vim /opt/atlassian/bitbucket/7.8.0/bin/set-bitbucket-home.sh
+   98  cd ../../
+   99  ls
+  100  cd application-data/
+  101  ls
+  102  cd bitbucket/
+  103  ls
+  104  clear
+  105  systemctl status bitbucket.service
+  106  pwd
+  107  cd ../../
+  108  ls
+  109  cd application-prod-data
+  110  ls
+  111  cd Stash/
+  112  ls
+  113  cd shared/
+  114  ls
+  115  cat bitbucket.properties
+  116  nc cfg-bitbucket-prod-oregon-postgres-db.cq6mwa5zluu7.us-west-2.rds.amazonaws.com 5432
+  117  history | grep nx
+  118  history | grep nc
+  119  nc -z -v -w 2 cfg-bitbucket-prod-oregon-postgres-db.cq6mwa5zluu7.us-west-2.rds.amazonaws.com 5432
+  120  clear
+  121  systemctl start bitbucket.service
+  122  systemctl status bitbucket.service
+  123  netstat -tulpn
+  124  netstat -tulpn | grep :80
+  125  pwd
+  126  ls
+  127  cat bitbucket.properties
+  128  clear
+  129  cat bitbucket.properties
+  130  cd ../../
+  131  ls
+  132  cd ../
+  133  ls
+  134  cd bitbucket/
+  135  ls
+  136  cd 7.8.0/
+  137  ls
+  138  cd bin/
+  139  ls
+  140  vim set-bitbucket-home.sh
+  141  journalctl -xu bitbucket.service
+  142  systemctl stop bitbucket.service
+  143  systemctl status bitbucket.service
+  144  clear
+  145  pwd
+  146  ls
+  147  vim set-bitbucket-home.sh
+  148  cd /opt/
+  149  ls -l
+  150  cd atlassian/
+  151  ls -l
+  152  cd /opt/atlassian/application-prod-data/Stash
+  153  ls -l
+  154  cat home.properties
+  155  cd shared/
+  156  ls
+  157  cat bitbucket.properties
+  158  vim bitbucket.properties
+  159  ifconfig
+  160  systemctl start bitbucket.service
+  161  systemctl status bitbucket.service
+  162  ls
+  163  cd ../log
+  164  ls
+  165  ls -l
+  166  tail -f atlassian-bitbucket.log
+  167  ls -l
+  168  tail -f atlassian-bitbucket-access.log
+  169  ls -l
+  170  cd audit/
+  171  ls
+  172  cd ../
+  173  ls -l
+  174  cd search/
+  175  ls
+  176  tail -f bitbucket_search.log
+  177  netstat -tulpn
+  178  wget -q -O- http://localhost
+  179  yum install elinks -y
+  180  elinks
+  181  cd /opt/atlassian/
+  182  ls -l
+  183  clear
+  184  ls -l
+  185  chmod -R 777 application-prod-data/
+  186  cd bitbucket/
+  187  ls
+  188  cd 7.8.0/
+  189  ls
+  190  cd logs/
+  191  ls
+  192  cd ../li
+  193  cd ../licenses/
+  194  ls
+  195  cd ../
+  196  ls -l
+  197  cd elasticsearch/
+  198  ls
+  199  cd ../
+  200  ls -l
+  201  cd logs/
+  202  ls
+  203  cd ../
+  204  cd bin/
+  205  ls
+  206  vim set-bitbucket-home.sh
+  207  source /etc/profile.d/bash_completion.sh
+  208  systemctl status bitbucket.service
+  209  systemctl start bitbucket.service
+  210  systemctl status bitbucket.service
+  211  clear
+  212  systemctl status bitbucket.service
+  213  netstat -tulpn
+  214  ls -l
+  215  cd ../../
+  216  ls
+  217  cd ../../
+  218  ls
+  219  cd atlassian/
+  220  ls -l
+  221  cd application-prod-data/
+  222  ls -l
+  223  cd Stash/
+  224  ls
+  225  ls -l
+  226  cat home.properties
+  227  cd shared/
+  228  ls
+  229  cat bitbucket.properties
+  230  vim bitbucket.properties
+  231  systemctl status bitbucket.service
+  232  journalctl -xu bitbucket.service -f
+  233  journalctl -xu bitbucket.service
+  234  ls
+  235  cd ../../
+  236  ls
+  237  cd ../
+  238  ls
+  239  cd atlassian/
+  240  ls -l
+  241  chmod -R 755 application-prod-data/
+  242  cd -
+  243  cd atlassian/
+  244  cd application-prod-data/
+  245  ls
+  246  cd Stash/
+  247  ls
+  248  cd log
+  249  ls
+  250  tail -f atlassian-bitbucket.log
+  251  cat atlassian-bitbucket.log
+  252  service iptables status
+  253  service iptables stop
+  254  clear
+  255  iptables -L
+  256  clear
+  257  systemctl status bitbucket.service
+  258  systemctl stop bitbucket.service
+  259  systemctl status bitbucket.service
+  260  systemctl start bitbucket.service
+  261  journalctl -xu bitbucket.service
+  262  systemctl status bitbucket.service
+  263  cat atlassian-bitbucket.log
+  264  pidof java
+  265  ps -aef | grep java
+  266  kill -9 1851
+  267  kill -9 1875
+  268  kill -9 12972
+  269  kill -9 25141
+  270  kill -9 25199
+  271  ps -aef | grep java
+  272  free -m
+  273  clear
+  274  systemctl status bitbucket.service
+  275  systemctl stop bitbucket.service
+  276  systemctl status bitbucket.service
+  277  #systemctl start bitbucket.service
+  278  clea
+  279  clear
+  280  ls -l
+  281  systemctl start bitbucket.service ; tail -f atlassian-bitbucket.log
+  282  systemctl status bitbucket.service
+  283  systemctl stop bitbucket.service
+  284  pwd
+  285  cd ../
+  286  ls
+  287  cd shared/
+  288  ls
+  289  vim bitbucket.properties
+  290  clear
+  291  ps -aef | grep java
+  292  clear
+  293  cd ../log
+  294  ls
+  295  clear
+  296  cat atlassian-bitbucket.log
+  297  clear
+  298  systemctl status bitbucket.service
+  299  systemctl start bitbucket.service
+  300  systemctl status bitbucket.service
+  301   tail -f atlassian-bitbucket.log
+  302  systemctl status bitbucket.service
+  303   tail -f atlassian-bitbucket.log
+  304  cat atlassian-bitbucket.log
+  305  systemctl status bitbucket.service
+  306  vim ../shared/bitbucket.properties
+  307  systemctl status bitbucket.service
+  308  systemctl stop bitbucket.service
+  309  systemctl status bitbucket.service
+  310  systemctl start bitbucket.service
+  311  systemctl status bitbucket.service
+  312   tail -f atlassian-bitbucket.log
+  313  free -m
+  314  clear
+  315  ll
+  316  df -Th
+  317  clear
+  318  netstat -vant
+  319  netstat -vant | grep :5432
+  320  netstat -vant | grep :7990
+  321  history
+  322  clear
+  323  df -Th
+  324  free -m
+  325  systemctl status bitbucket.service
+  326  clear
+  327  ps -ef | grep java
+  328  clear
+  329  free -m
+  330  top
+  331  clear
+  332  free -m
+  333  cat /proc/
+  334  ls
+  335  cat /proc/cpuinfo
+  336  clear
+  337  free -m
+  338  cd /boot/
+  339  cd post_launch/
+  340  ls
+  341  cat launch.sh
+  342  cd /boot/post_launch/
+  343  vi launch.sh
+  344  cat launch.sh
+  345  ls -l
+  346  clear
+  347  cd /opt/atlassian/
+  348  ls
+  349  mkdir DR
+  350  cd DR/
+  351  echo "This is test file1" >> file1.txt
+  352  echo "This is test file2" >> file2.txt
+  353  pwd
+  354  cat file1.txt
+  355  uptime
+  356  clear
+  357  updatedb
+  358  host git-stash-awsdev.ceteracorp.com
+  359  ls
+  360  systemctl status bitbucket.service
+  361  cd /opt/atlassian/
+  362  ls
+  363  cd application-prod-data/
+  364  ls
+  365  cd Stash/
+  366  ls
+  367  cd shared/
+  368  ls
+  369  vim bitbucket.properties
+  370  systemctl status bitbucket.service
+  371  clear
+  372  ifconfig
+  373  cd ../log
+  374  ls
+  375  clear
+  376   tail -f atlassian-bitbucket.log
+  377  ls
+  378  systemctl start bitbucket.service
+  379  systemctl status bitbucket.service
+  380   tail -f atlassian-bitbucket.log
+  381  ps -aef | grep java
+  382  kill -9 1898
+  383  ps -aef | grep java
+  384  pidof java
+  385  kill -9 1910 2062 2046
+  386  ps -aef | grep java
+  387  clear
+  388  systemctl status bitbucket.service
+  389  systemctl start bitbucket.service
+  390  systemctl status bitbucket.service
+  391  clear
+  392   tail -f atlassian-bitbucket.log
+  393  cd ../shared/
+  394  ls
+  395  cat bitbucket.properties
+  396  cd /
+  397  root
+  398  ls
+  399  cd usr
+  400  ls
+  401  cd bin/
+  402  ls
+  403  cd .
+  404  cd ..
+  405  ls
+  406  cd local/
+  407  ls
+  408  whereis installer_linux.py
+  409  cd usr/bin
+  410  cd /usr/bin
+  411  ls
+  412  ls | grep installer_linux.py
+  413  wget -O ./installer_linux.py https://console.cloudendure.com/installer_linux.py
+  414  ls | grep installer_linux.py
+  415  sudo python ./installer_linux.py -t 7BBB-21B6-F5F4-A213-8030-19B9-663B-89AA-7FF5-5CE5-0819-3F34-F154-BF34-7745-D9CA --no-prompt
+  416  wheris installer_linux.py
+  417  whereis installer_linux.py
+  418  cd /usr/bin/
+  419  wget -O ./installer_linux.py https://console.cloudendure.com/installer_linux.py
+  420  sudo python ./installer_linux.py -t 5C08-38C1-AB43-2045-0F1A-54E5-CF84-62BE-8658-60D0-AB80-79C1-DE73-D27E-1684-D949 --no-prompt
+  421  clear
+  422  df -Th
+  423  claer
+  424  clear
+  425  systemctl enable bitbucket.service
+  426  free -m
+  427  netstat -tulpn
+  428  clear
+  429  ls
+  430  locate .sh
+  431  vim /var/lib/cloudendure/insertDriver.sh
+  432  vim /var/lib/cloudendure/gce_download_linux.sh
+  433  clear
+  434  netstat -tulpn
+  435  clear
+  436  netstat -tulpn
+  437  ifconfig
+  438  history
+  439  systemctl status bitbucket.service
+  440  cd /opt/atlassian/
+  441  ls
+  442  ls -l
+  443  netstat -tulpn
+  444  clear
+  445  netstat -tulpn
+  446  iptables -L
+  447  vim /etc/sysconfig/iptables
+  448  service iptables restart
+  449  iptables -L
+  450  vim /etc/sysconfig/iptables
+  451  nc -z -v -w 2 git-stash.ceteracorp.com
+  452  nc -z -v -w 2 git-stash.ceteracorp.com 7999
+  453  host git-stash.ceteracorp.com
+  454  clear
+  455  nc -z -v -w 2 git-stash.ceteracorp.com 7999
+  456  host git-stash.ceteracorp.com
+  457  nc -z -v -w 2 git-stash.ceteracorp.com 80
+  458  netstat -tulpn
+  459  netstat -tulpn | grep java
+  460  netstat -tulpn
+  461  cd /opt/atlassian/application-prod-data/
+  462  cler
+  463  clerclear
+  464  nc -z -v -w 2 git-stash.ceteracorp.com:7999
+  465  nc -z -v -w 2 git-stash.ceteracorp.com 7999
+  466  nc -z -v -w 2 10.2.1.232 7999
+  467  cd /opt/atlassian/application-prod-data/
+  468  ls
+  469  ls -l
+  470  cd sT
+  471  cd Stash/
+  472  ls
+  473  ls -l
+  474  cd shared/
+  475  ls
+  476  vim bitbucket.properties
+  477  vim /opt/atlassian/bitbucket/7.8.0/bin/set-bitbucket-home.sh
+  478  locate .xml | less
+  479  locate server.xml
+  480  locate client.xml
+  481  clear
+  482  cd /etc/
+  483  netstat -tuln
+  484  netstat -tulnp | gre java
+  485  netstat -tulnp | grep java
+  486  cd
+  487  cd /opt/atlassian/
+  488  grep -Hrn '7999' .
+  489  ls
+  490  cd application-prod-data/
+  491  cd Stash/
+  492  grep -Hrn '7999' .
+  493  clear
+  494  ls -l
+  495  cd shared/
+  496  ls
+  497  grep -Hrn '7999' .
+  498  aws
+  499  lsmod | grep aws_replication_driver
+  500  iptables --list
+  501  clear
+  502  ls
+  503  history
+[root@PALMAWL002 ~]#
